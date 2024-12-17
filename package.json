@@ -1,0 +1,30 @@
+{
+  "name": "express-package",
+  "version": "1.0.0",
+  "description": "Express project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./expressAssign/assign2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavithraSubra/ExpressProjectRepo.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Pavithra SUbramanian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PavithraSubra/ExpressProjectRepo/issues"
+  },
+  "homepage": "https://github.com/PavithraSubra/ExpressProjectRepo#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
