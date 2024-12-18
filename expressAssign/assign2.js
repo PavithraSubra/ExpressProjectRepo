@@ -14,7 +14,7 @@ app.use('/add-user', (req, res, next) => {
 });
 
 
-app.use('/', (req, res, next) => {
+app.get('/', (req, res, next) => {
 res.send('<h1>Hello from assign2</h1>');
 });
 app.listen(3000);
